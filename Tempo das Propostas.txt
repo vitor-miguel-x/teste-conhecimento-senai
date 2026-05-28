@@ -1,0 +1,4 @@
+1. Engenharia de Requisitos -- (2 horas e 5 minutos)
+• Requisitos Funcionais (RF)
+• Requisitos Não-Funcionais (RNF)
+• Diagrama de Caso de Uso (UML)
