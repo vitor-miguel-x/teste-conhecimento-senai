@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-inline: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(53, 52, 52);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  gap: 20px;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+  width: 100%;
+  background-color: rgb(248, 248, 104);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 400px;
+  padding-block: 170px;
+  background-color: rgba(230, 45, 45, 0.842);
+  padding-inline: 50px;
+  border-radius: 15px;
+}
+
+.cadastro,
+.login {
+  display: none;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+img {
+  height: 70px;
+  width: 70px;
+}
+
+.card button {
+  height: 50px;
+  width: 100%;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgb(247, 113, 65);
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover:active {
+  transform: scale(0.96);
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  outline: inherit;
+}
