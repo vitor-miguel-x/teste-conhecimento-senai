@@ -2,3 +2,20 @@
 • Requisitos Funcionais (RF)
 • Requisitos Não-Funcionais (RNF)
 • Diagrama de Caso de Uso (UML)
+
+2. Modelagem de Dados -- (31 min)
+• DER (Diagrama de Entidade Relacionamento)
+• Mapeamento: Identificar claramente as Chaves Primárias (PK) e Chaves Estrangeiras (FK).
+
+3. Banco de Dados -- (28 min)
+• Script SQL (CREATE DATABASE e CREATE TABLE).
+• População Inicial: Criar um script de INSERT com pelo menos 1 usuário administrador e 3 doces cadastrados para testes iniciais.
+
+5. Back-End -- 7 horas e 9 minutos
+• Configuração da API: Criar o servidor (Node.js) e a conexão com o banco de dados.
+• Rotas de Autenticação: Criar a rotas para Login (POST /login).
+• Rotas do CRUD de Doces: Criar as rotas de gerenciamento:
+o POST /doces (Cadastrar doce)
+o GET /doces (Listar todos os doces)
+o PUT /doces/:id (Editar doce)
+o DELETE /doces/:id (Remover doce do estoque)
